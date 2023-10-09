@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 3. Download datasets from Baidu Netdisk, including processed annotations, features and pre-trained models of R2R and CVDN datasets. Put the data in `datasets` directory.
 
-4. Download the GEL-R2R dataset from Baidu Netdisk. Put the data in `datasets/R2R/annotations/GELR2R` directory.
+4. Download the GEL-R2R dataset from [Baidu Netdisk](https://pan.baidu.com/s/12WTzZ05T8Uxy85znn28dfQ?pwd=64t7). Put the data in `datasets/R2R/annotations/GELR2R` directory.
 
 ## Adaptive Pre-training
 
