@@ -31,7 +31,6 @@ bash ada_pretrain_src/pretrain_r2r.sh
 
 ## Fine-tuning & Evaluation
 
-Use pseudo interative demonstrator to fine-tune the model:
 ```finetune
 cd finetune_src
 bash scripts/run_r2r.sh # (run_cvdn.sh)
