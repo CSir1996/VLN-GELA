@@ -21,7 +21,7 @@
     "dropout": 0.1,
     "weight_decay": 0.01,
     "grad_norm": 5.0,
-    "warmup_steps": 10000,
+    "warmup_steps": 100,
     "seed": 0,
     "fp16": false,
     "n_workers": 1,
@@ -39,7 +39,7 @@
                                  "datasets/R2R/annotations/GELR2R/train_prevalent_generated.jsonl"],
             "val_seen_traj_files": ["datasets/R2R/annotations/GELR2R/val_seen_gel.jsonl"], 
             "val_unseen_traj_files": ["datasets/R2R/annotations/GELR2R/val_unseen_gel.jsonl"],
-            "img_ft_file": "datasets/R2R/features/pth_vit_base_patch16_224_imagenet_r2r.e2e.ft.22k.hdf5",
+            "img_ft_file": "datasets/R2R/features/pth_vit_base_patch16_224_imagenet_e2e.hdf5",
             "scanvp_cands_file": "datasets/R2R/annotations/scanvp_candview_relangles.json",
             "connectivity_dir": "datasets/R2R/connectivity",
             "tasks": [
